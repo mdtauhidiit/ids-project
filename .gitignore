@@ -1,0 +1,14 @@
+# Virtual environment
+venv/
+ENV/
+
+# Node dependencies & builds
+frontend/node_modules/
+frontend/dist/
+
+# Python cache & local data
+__pycache__/
+*.pyc
+backend/data/
+backend/detection/artifacts/*.pkl
+backend/detection/artifacts/*.pth
