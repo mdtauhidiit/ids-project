@@ -62,6 +62,8 @@ CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:5173",
 ]
 
+CORS_ALLOW_ALL_ORIGINS = True  # Or specify your Vercel URL
+
 ROOT_URLCONF = 'ids_backend.urls'
 
 TEMPLATES = [
