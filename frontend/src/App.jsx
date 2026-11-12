@@ -34,7 +34,7 @@ export default function App() {
     setLoading(true);
     setError(null);
     try {
-      const BASE_URL = 'https://ids-project-final.onrender.com';
+      const BASE_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000';
       const endpoint =  selectedEngine === 'compare'
                        ? `${BASE_URL}/api/detect/compare/`
                        : `${BASE_URL}/api/detect/${selectedEngine}/`;
