@@ -34,11 +34,10 @@ export default function App() {
     setLoading(true);
     setError(null);
     try {
-      const endpoint =
-        selectedEngine === 'compare'
-          ? 'http://127.0.0.1:8000/api/detect/compare/'
-          : `http://127.0.0.1:8000/api/detect/${selectedEngine}/`;
-
+      const BASE_URL = 'https://ids-project-final.onrender.com';
+      const endpoint =  selectedEngine === 'compare'
+                       ? `${BASE_URL}/api/detect/compare/`
+                       : `${BASE_URL}/api/detect/${selectedEngine}/`;
       const response = await fetch(endpoint, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
