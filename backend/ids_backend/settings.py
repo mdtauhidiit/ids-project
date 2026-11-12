@@ -57,9 +57,11 @@ MIDDLEWARE = [
 ]
 
 # Allow Vite frontend access
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",
-    "http://127.0.0.1:5173",
+ALLOWED_HOSTS = [
+    "ids-project-final.onrender.com",
+    ".onrender.com",
+    "localhost",
+    "127.0.0.1",
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True  # Or specify your Vercel URL
