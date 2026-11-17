@@ -15,7 +15,7 @@
 </p>
 
 <p>
-  <a href="[https://ids-project-final.onrender.com](https://ids-project-jet.vercel.app/)"><strong>🌐 Live Project Interface</strong></a> •
+  <a href="https://ids-project-jet.vercel.app/"><strong>🌐 Live Project Interface</strong></a> •
   <a href="#-system-architecture"><strong>🏗️ Architecture</strong></a> •
   <a href="#-detection-engines"><strong>🧠 Detection Engines</strong></a> •
   <a href="#-packet-parameters"><strong>🎛️ Parameters</strong></a> •
